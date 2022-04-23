@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
+        StartCoroutine(PrintAndWait());
     }
 
     void Update()
@@ -60,5 +61,13 @@ public class Player : MonoBehaviour
         var newXPos = Mathf.Clamp(transform.position.x + deltaX, _xMin, _xMax);
         var newYPos = Mathf.Clamp(transform.position.y + deltaY, _yMin, _yMax);
         transform.position = new Vector2(newXPos, newYPos);
+    }
+
+    IEnumerator PrintAndWait()
+    {
+        Debug.Log("I'll wait for 3 secs");
+        yield return new WaitForSeconds(3);
+        Debug.Log("Printed after 3 secs");
+        
     }
 }
