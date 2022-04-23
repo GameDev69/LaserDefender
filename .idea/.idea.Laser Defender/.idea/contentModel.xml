@@ -11,6 +11,7 @@
           <e p="Player.cs" t="Include" />
           <e p="PlayerLaser.cs" t="Include" />
           <e p="Shredder.cs" t="Include" />
+          <e p="WaveConfig.cs" t="Include" />
         </e>
       </e>
       <e p="Laser Defender.sln" t="IncludeFlat" />

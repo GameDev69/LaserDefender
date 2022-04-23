@@ -20,14 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6d7702-4f68-4814-a56a-63ccaf9fa971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path (0).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path (0).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path 0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path 0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path 1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Path/Path 1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 1.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 1.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Path/Path (0).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Path/Path (0).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +57,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLaser.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WaveConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" />
       </list>
     </option>
@@ -97,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650636215864</updated>
-      <workItem from="1650636313009" duration="23408000" />
+      <workItem from="1650636313009" duration="26342000" />
     </task>
     <servers />
   </component>
@@ -123,5 +135,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="96" key="Rider.ProjectTemplateDialog.Size/0.0.1366.728@0.0.1366.728" timestamp="1650688583174" />
+    <state x="487" y="38" key="RiderGenerateDialog" timestamp="1650737897205">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="487" y="38" key="RiderGenerateDialog/0.0.1366.728@0.0.1366.728" timestamp="1650737897205" />
   </component>
 </project>

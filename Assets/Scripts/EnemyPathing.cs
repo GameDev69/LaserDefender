@@ -7,16 +7,18 @@ using UnityEngine.Serialization;
 public class EnemyPathing : MonoBehaviour
 {
     #region
-    [SerializeField] private Transform path;
-    [SerializeField] private float moveSpeed = 2f;
+
+    [SerializeField] private WaveConfig _waveConfig;
+    [SerializeField] private float moveSpeed;
     #endregion
 
     private List<Transform> _waypoints;
-    private int _waypointIndex = 1;
+    private int _waypointIndex = 0;
     void Start()
     {
-        _waypoints = path.GetComponentsInChildren<Transform>().ToList();
+        _waypoints = _waveConfig.Waypoints();
         transform.position = _waypoints[_waypointIndex].transform.position;
+        moveSpeed = _waveConfig.MoveSpeed;
     }
 
     void Update()

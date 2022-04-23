@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float projectileSpeed = 10f;
     #endregion
 
-    private Coroutine firingCoroutine;
+    private Coroutine _firingCoroutine;
 
     #region MyRegion
     private float _xMin;
@@ -38,11 +38,11 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            firingCoroutine = StartCoroutine(FireContinuously());
+            _firingCoroutine = StartCoroutine(FireContinuously());
         }
-        else if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonUp("Fire1"))
         {
-            StopCoroutine(firingCoroutine);
+            StopCoroutine(_firingCoroutine);
         }
     }
 
