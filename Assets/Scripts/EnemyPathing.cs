@@ -8,7 +8,7 @@ public class EnemyPathing : MonoBehaviour
 {
     #region
 
-    [SerializeField] private WaveConfig _waveConfig;
+    [SerializeField] private WaveConfig waveConfig;
     [SerializeField] private float moveSpeed;
     #endregion
 
@@ -16,9 +16,9 @@ public class EnemyPathing : MonoBehaviour
     private int _waypointIndex = 0;
     void Start()
     {
-        _waypoints = _waveConfig.Waypoints();
+        _waypoints = waveConfig.Waypoints();
         transform.position = _waypoints[_waypointIndex].transform.position;
-        moveSpeed = _waveConfig.MoveSpeed;
+        moveSpeed = waveConfig.MoveSpeed;
     }
 
     void Update()
