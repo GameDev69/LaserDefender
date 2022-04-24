@@ -16,8 +16,8 @@ public class EnemyPathing : MonoBehaviour
     private int _waypointIndex = 0;
     void Start()
     {
-        _waypoints = _waveConfig.Waypoints();
-        moveSpeed = _waveConfig.MoveSpeed;
+        _waypoints = _waveConfig.GetWaypoints();
+        moveSpeed = _waveConfig.GetMoveSpeed();
         transform.position = _waypoints[_waypointIndex].transform.position;
     }
 
