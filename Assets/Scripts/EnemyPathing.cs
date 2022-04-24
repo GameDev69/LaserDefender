@@ -7,17 +7,20 @@ using UnityEngine.Serialization;
 public class EnemyPathing : MonoBehaviour
 {
     #region
-
+    // переменная для объекта с данными
     private WaveConfig _waveConfig;
-    [SerializeField] private float moveSpeed;
+    // скорость передвижения префаба
+    private float _moveSpeed;
     #endregion
 
+    // список точек перемещения в виде позиций Vector3
     private List<Transform> _waypoints;
+    // индекс точки
     private int _waypointIndex = 0;
     void Start()
     {
         _waypoints = _waveConfig.GetWaypoints();
-        moveSpeed = _waveConfig.GetMoveSpeed();
+        _moveSpeed = _waveConfig.GetMoveSpeed();
         transform.position = _waypoints[_waypointIndex].transform.position;
     }
 
@@ -35,8 +38,11 @@ public class EnemyPathing : MonoBehaviour
     {
         if (_waypointIndex <= _waypoints.Count - 1)
         {
+            // следующая точка
             var targetPosition = _waypoints[_waypointIndex].transform.position;
-            var movementThisFrame = moveSpeed * Time.deltaTime;
+            // скорость перемещения приведённая
+            var movementThisFrame = _moveSpeed * Time.deltaTime;
+            // движение от... и до...
             transform.position = Vector2.MoveTowards(
                 transform.position,
                 targetPosition,

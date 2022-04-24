@@ -8,9 +8,15 @@ public class EnemySpawner : MonoBehaviour
 
     [SerializeField] private List<WaveConfig> waveConfigs;
     [SerializeField] private int startingWave = 0;
-    void Start()
+    [SerializeField] private bool looping = false;
+    IEnumerator Start()
     {
-        StartCoroutine(SpawnAllWaves());
+        do
+        {
+            yield return StartCoroutine(SpawnAllWaves());
+        } 
+        while (looping);
+        
         
     }
 
