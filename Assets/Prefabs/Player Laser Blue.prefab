@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -4436982200776369106}
   - component: {fileID: -8031004624082880273}
   - component: {fileID: -7309335160034552663}
+  - component: {fileID: 3637174679209490783}
   m_Layer: 0
   m_Name: Player Laser Blue
   m_TagString: Untagged
@@ -134,3 +135,16 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.13, y: 0.54}
   m_Direction: 0
+--- !u!114 &3637174679209490783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7974065996463867389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca935296838aa7142abb8e02d9210502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
