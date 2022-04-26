@@ -32,6 +32,7 @@
       <Path>Logs</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>_uViLEd Setting</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
