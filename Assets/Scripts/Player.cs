@@ -87,12 +87,15 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
         DamageDealer damageDealer = collider2D.GetComponent<DamageDealer>();
+        // Если у объекта collider2D нет компонента DamageDealer...
+        if (!damageDealer) return;
         ProcessHit(damageDealer);
     }
 
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
+        damageDealer.Hit();
         if (health <= 0)
         {
             Destroy(gameObject);

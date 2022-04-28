@@ -27,36 +27,34 @@ public class Enemy : MonoBehaviour
     private void CountDownAndShoot()
     {
         shotCounter -= Time.deltaTime;
-        Debug.Log(Time.deltaTime);
         if (shotCounter <= 0f)
         {
-            StartCoroutine(Fire());
+            Fire();
             shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
     }
 
-    private IEnumerator Fire()
+    private void Fire()
     {
-        while (true)
-        {
-            GameObject enemyLaser = Instantiate(
-                enemyLaserPrefab,
-                transform.position,
-                Quaternion.identity) as GameObject;
-            enemyLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyLaserSpeed);
-            yield return new WaitForSeconds(shotCounter);
-        }
+        GameObject enemyLaser = Instantiate(
+            enemyLaserPrefab,
+            transform.position,
+            Quaternion.identity);
+        enemyLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyLaserSpeed);
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D)
     {
         DamageDealer damageDealer = collider2D.gameObject.GetComponent<DamageDealer>();
+        // Если у объекта collider2D нет компонента DamageDealer...
+        if (!damageDealer) return;
         ProcessHit(damageDealer);
     }
 
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
+        damageDealer.Hit();
         if (health <= 0)
         {
             Destroy(gameObject);
