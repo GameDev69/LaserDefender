@@ -19,7 +19,8 @@ public class Player : MonoBehaviour
     private float _xMax;
     private float _yMin;
     private float _yMax;
-    private float projectileFiringPeriod = 0.1f;
+    // Именно этот параметр влияент на скорость срельбы
+    private float projectileFiringPeriod = 0.05f;
 
     #endregion
     
