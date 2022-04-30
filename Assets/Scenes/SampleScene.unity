@@ -128,24 +128,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2397977495050972751, guid: 8ce3aee24e209944e9a4a534d1bce514, type: 3}
   m_PrefabInstance: {fileID: 1740470132}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &646445620 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8373542949167229539, guid: 5487ed91414bddf4caee3996c61ce4fc, type: 3}
-  m_PrefabInstance: {fileID: 8694407814760291960}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &646445622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 646445620}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdb36aaf32d73d247b983219dd2b52e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgroundScrollSpeed: 0.2
 --- !u!4 &752015191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4957287593844707688, guid: eef4949aeb8d03b47b02165477a58670, type: 3}
@@ -177,6 +159,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 325765333}
   - {fileID: 752015191}

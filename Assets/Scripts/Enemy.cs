@@ -11,6 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float maxTimeBetweenShots = 3f;
     [SerializeField] private GameObject enemyLaserPrefab;
     [SerializeField] private float enemyLaserSpeed;
+    [SerializeField] private GameObject destroyEnemyVFX;
 
     
     void Start()
@@ -58,6 +59,8 @@ public class Enemy : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            GameObject sparkles = Instantiate(destroyEnemyVFX, transform.position, Quaternion.identity);
+            Destroy(sparkles, 1f);
         }
     }
 }

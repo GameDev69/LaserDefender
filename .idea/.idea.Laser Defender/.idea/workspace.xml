@@ -20,25 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6d7702-4f68-4814-a56a-63ccaf9fa971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Materials/Nebula Blue.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Materials/Nebula Blue.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Particles.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Particles.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Starts.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Starts.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlaySpace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlaySpace.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Nebula Blue.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Nebula Blue.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Stars-Big_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Backgrounds/Stars-Big_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Waves/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves/Wave 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waves/Wave 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +57,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +112,7 @@
       <workItem from="1650978225864" duration="3486000" />
       <workItem from="1651159747676" duration="6104000" />
       <workItem from="1651169981469" duration="5802000" />
-      <workItem from="1651329650408" duration="4518000" />
+      <workItem from="1651329650408" duration="4841000" />
     </task>
     <servers />
   </component>
