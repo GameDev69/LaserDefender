@@ -20,16 +20,148 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6d7702-4f68-4814-a56a-63ccaf9fa971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Particles.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Explosion Particles.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Starts.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion Starts.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/VFX/Explosion-stars.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/kenvector_future.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/kenvector_future.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/kenvector_future_thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/kenvector_future_thin.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/Death Effect.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/Death Effect.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/highDown.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/highDown.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/highUp.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/highUp.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser6.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser7.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser8.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser9.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/laser9.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowDown.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowDown.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowRandom.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowRandom.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowThreeTone.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/lowThreeTone.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/pepSound5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaseJump5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserDown3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp6.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/phaserUp7.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp10.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp10.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp11.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp11.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp12.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp12.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp6.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp6.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp7.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp7.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp8.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp8.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp9.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/powerUp9.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash3.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash3.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash4.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash4.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash5.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/spaceTrash5.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/threeTone1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/threeTone1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/threeTone2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/threeTone2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/tone1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/tone1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/twoTone1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/twoTone1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/twoTone2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/twoTone2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zap1.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zap1.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zap2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zap2.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapThreeToneDown.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapThreeToneDown.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapThreeToneUp.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapThreeToneUp.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapTwoTone.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapTwoTone.ogg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapTwoTone2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX/zapTwoTone2.ogg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PlaySpace.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PlaySpace.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +188,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
       </list>
     </option>
@@ -112,7 +244,8 @@
       <workItem from="1650978225864" duration="3486000" />
       <workItem from="1651159747676" duration="6104000" />
       <workItem from="1651169981469" duration="5802000" />
-      <workItem from="1651329650408" duration="4841000" />
+      <workItem from="1651329650408" duration="6044000" />
+      <workItem from="1651431177669" duration="3340000" />
     </task>
     <servers />
   </component>

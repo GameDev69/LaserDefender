@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
+    [Header("Данные префаба")]
     [SerializeField] private float health = 100;
+    
+    [Header("Характеристики срельбы")]
     [SerializeField] private float shotCounter;
     [SerializeField] private float minTimeBetweenShots = 0.2f;
     [SerializeField] private float maxTimeBetweenShots = 3f;
     [SerializeField] private GameObject enemyLaserPrefab;
     [SerializeField] private float enemyLaserSpeed;
-    [SerializeField] private GameObject destroyEnemyVFX;
-
     
+    [Header("Данне об уничтожении объекта")]
+    [SerializeField] private GameObject destroyEnemyVFX;
+    [SerializeField] private AudioClip deathSFX;
+    [SerializeField] [Range(0, 1)] private float deathSoundVolume = 0.75f;
+    
+    [Header("Данные стрельбы")]
+    [SerializeField] private AudioClip shootSound;
+    [SerializeField] [Range(0,1)] private float shootSoundVolume = 0.25f;
+
+
     void Start()
     {
         shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
@@ -42,6 +52,7 @@ public class Enemy : MonoBehaviour
             transform.position,
             Quaternion.identity);
         enemyLaser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyLaserSpeed);
+        AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
     }
 
     private void OnTriggerEnter2D(Collider2D collider2D)
@@ -58,9 +69,20 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
-            GameObject sparkles = Instantiate(destroyEnemyVFX, transform.position, Quaternion.identity);
-            Destroy(sparkles, 1f);
+            Die(out var sparkles);
         }
+    }
+
+    private void Die(out GameObject sparkles)
+    {
+        Destroy(gameObject);
+        sparkles = Instantiate(destroyEnemyVFX, transform.position, Quaternion.identity);
+        Destroy(sparkles, 1f);
+        PlayDieSFX();
+    }
+
+    private void PlayDieSFX()
+    {
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolume);
     }
 }

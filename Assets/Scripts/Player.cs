@@ -11,10 +11,15 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed = 10f;
     [SerializeField] private float padding = 1f;
     [SerializeField] private int health = 200;
-    
+    [SerializeField] private AudioClip deathSFX;
+    [SerializeField] [Range(0,1)] private float deathSoundVolume = 0.75f;
+    [SerializeField] private AudioClip shootSound;
+    [SerializeField] [Range(0,1)] private float shootSoundVolume = 0.25f;
+        
     [Header("Projectile")]
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float projectileSpeed = 10f;
+    
     #endregion
 
     private Coroutine _firingCoroutine;
@@ -24,8 +29,10 @@ public class Player : MonoBehaviour
     private float _xMax;
     private float _yMin;
     private float _yMax;
+    private AudioSource _myAudioSource;
     // Именно этот параметр влияент на скорость срельбы
     private float projectileFiringPeriod = 0.05f;
+    
 
     #endregion
     
@@ -61,6 +68,7 @@ public class Player : MonoBehaviour
                 transform.position,
                 Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            AudioSource.PlayClipAtPoint(shootSound, Camera.main.transform.position, shootSoundVolume);
             yield return new WaitForSeconds(projectileFiringPeriod);
         }
     }
@@ -98,7 +106,18 @@ public class Player : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
+        PlayDieSFX();
+    }
+
+    private void PlayDieSFX()
+    {
+        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolume);
     }
 }
