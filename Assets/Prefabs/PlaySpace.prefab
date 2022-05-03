@@ -9913,7 +9913,7 @@ GameObject:
   - component: {fileID: 2972083926044375354}
   - component: {fileID: 416229732}
   m_Layer: 0
-  m_Name: Shredder
+  m_Name: Shredder Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

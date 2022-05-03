@@ -100,8 +100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 1
-  health: 200
-  deathSFX: {fileID: 8300000, guid: e960f613d7a06bc49b0bc49d6faea7fa, type: 3}
+  health: 1000
+  deathSFX: {fileID: 8300000, guid: 8f4b8507b547616428815cae7a9b1cca, type: 3}
   deathSoundVolume: 0.75
   shootSound: {fileID: 8300000, guid: 8f4b8507b547616428815cae7a9b1cca, type: 3}
   shootSoundVolume: 0.1

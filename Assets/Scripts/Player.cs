@@ -19,9 +19,10 @@ public class Player : MonoBehaviour
     [Header("Projectile")]
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float projectileSpeed = 10f;
-    
+
     #endregion
 
+    private HealthDisplay _healthDisplay;
     private Coroutine _firingCoroutine;
 
     #region MyRegion
@@ -32,13 +33,18 @@ public class Player : MonoBehaviour
     private AudioSource _myAudioSource;
     // Именно этот параметр влияент на скорость срельбы
     private float projectileFiringPeriod = 0.05f;
-    
-
     #endregion
-    
+
+
+    public int GetHealth()
+    {
+        return health;
+    }
     void Start()
     {
         SetUpMoveBoundaries();
+        _healthDisplay = FindObjectOfType<HealthDisplay>();
+        _healthDisplay.SetHealthText(health);
     }
 
     void Update()
@@ -103,6 +109,7 @@ public class Player : MonoBehaviour
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
+        _healthDisplay.SetHealthText(health);
         damageDealer.Hit();
         if (health <= 0)
         {
