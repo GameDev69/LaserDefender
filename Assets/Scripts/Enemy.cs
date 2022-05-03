@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private GameObject destroyEnemyVFX;
     [SerializeField] private AudioClip deathSFX;
     [SerializeField] [Range(0, 1)] private float deathSoundVolume = 0.75f;
+    [SerializeField] private int scoreValue = 150;
     
     [Header("Данные стрельбы")]
     [SerializeField] private AudioClip shootSound;
@@ -75,6 +76,7 @@ public class Enemy : MonoBehaviour
 
     private void Die(out GameObject sparkles)
     {
+        FindObjectOfType<GameSession>().AddScore(scoreValue);
         Destroy(gameObject);
         sparkles = Instantiate(destroyEnemyVFX, transform.position, Quaternion.identity);
         Destroy(sparkles, 1f);

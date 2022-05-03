@@ -20,42 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c6d7702-4f68-4814-a56a-63ccaf9fa971" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Music.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/BossIntro.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/BossIntro.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/BossMain.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/BossMain.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Intro Jingle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Intro Jingle.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Map (basic version).wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Map (basic version).wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Map.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Map.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mars.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mars.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mercury.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Mercury.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Venus.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Venus.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Warp Jingle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Warp Jingle.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Win Jingle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Music/Win Jingle.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music Player.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Music Player.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Session.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Session.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameSession.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Laser Defender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game Over.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game Over.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/RiderScriptEditorPersistedState.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +48,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLaser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameSession.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -85,10 +65,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DamageDealer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BackgroundScroller.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameSession.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScoreDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level.cs" />
       </list>
     </option>
   </component>
@@ -143,7 +125,7 @@
       <workItem from="1651159747676" duration="6104000" />
       <workItem from="1651169981469" duration="5802000" />
       <workItem from="1651329650408" duration="6044000" />
-      <workItem from="1651431177669" duration="11237000" />
+      <workItem from="1651431177669" duration="16379000" />
     </task>
     <servers />
   </component>
