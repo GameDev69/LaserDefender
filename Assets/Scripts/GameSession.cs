@@ -1,16 +1,19 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameSession : MonoBehaviour
 {
     private int _score = 0;
+    private SceneLoader _sceneLoader;
 
     private void Awake()
     {
         SetUpSingleton();
+    }
+
+    private void Start()
+    {
+        
     }
 
     private void SetUpSingleton()
@@ -28,6 +31,8 @@ public class GameSession : MonoBehaviour
     public void AddScore(int scoreValue)
     {
         _score += scoreValue;
+        _sceneLoader = FindObjectOfType<SceneLoader>();
+        _sceneLoader.LoadNextScene(_score);
     }
 
     public int GetScore()

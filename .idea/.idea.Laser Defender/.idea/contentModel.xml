@@ -18,6 +18,7 @@
           <e p="MusicPlayer.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="PlayerLaser.cs" t="Include" />
+          <e p="SceneLoader.cs" t="Include" />
           <e p="ScoreDisplay.cs" t="Include" />
           <e p="Shredder.cs" t="Include" />
           <e p="Spinner.cs" t="Include" />

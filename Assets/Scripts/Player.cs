@@ -43,8 +43,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         SetUpMoveBoundaries();
-        _healthDisplay = FindObjectOfType<HealthDisplay>();
-        _healthDisplay.SetHealthText(health);
     }
 
     void Update()
@@ -109,7 +107,6 @@ public class Player : MonoBehaviour
     private void ProcessHit(DamageDealer damageDealer)
     {
         health -= damageDealer.GetDamage();
-        _healthDisplay.SetHealthText(health);
         damageDealer.Hit();
         if (health <= 0)
         {

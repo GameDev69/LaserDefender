@@ -5,19 +5,16 @@ using UnityEngine;
 
 public class HealthDisplay : MonoBehaviour
 {
-    private TextMeshProUGUI _heathText;
+    private TextMeshProUGUI _healthText;
     private Player _player;
-
-    public void SetHealthText(int heath)
+    void Start()
     {
-        if (_heathText == null)
-        {
-            _heathText = GetComponent<TextMeshProUGUI>();
-        }
-        if (heath < 0)
-        {
-            heath = 0;
-        }
-        _heathText.text = heath.ToString();
+        _healthText = gameObject.GetComponent<TextMeshProUGUI>();
+        _player = FindObjectOfType<Player>();
+    }
+    
+    void Update()
+    {
+        _healthText.text = _player.GetHealth().ToString();
     }
 }
